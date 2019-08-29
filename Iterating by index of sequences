@@ -1,0 +1,6 @@
+# Python program to illustrate 
+# Iterating by index 
+
+list = ["chakri", "for", "chakri"] 
+for index in range(len(list)): 
+	print list[index] 
