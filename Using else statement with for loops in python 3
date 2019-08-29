@@ -1,0 +1,8 @@
+# Python program to illustrate 
+# combining else with for 
+  
+list = ["chakri", "for", "chakri"] 
+for index in range(len(list)): 
+    print list[index] 
+else: 
+    print "Inside Else Block"
