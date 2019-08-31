@@ -1,0 +1,12 @@
+# Program to print the sum of first 5 natural numbers
+
+# variable to store the sum
+sum = 0
+
+# iterating over natural numbers using range()
+for val in range(1, 6):
+    # calculating sum
+    sum = sum + val
+
+# displaying sum of first 5 natural numbers
+print(sum)
