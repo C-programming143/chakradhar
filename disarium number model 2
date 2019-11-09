@@ -1,0 +1,18 @@
+n=int(input())
+k=n
+i=0
+l=[]
+while n!=0:
+    l.append(n%10)
+    n=n/10
+    i+=1
+e=i
+sum=0
+for j in range(i):
+    m=l[j]**e
+    sum+=m
+    e-=1
+if k==sum:
+    print ("Disarium")
+else:
+    print ("Not Disarium")
