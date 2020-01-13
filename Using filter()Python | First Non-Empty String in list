@@ -1,0 +1,12 @@
+initializing list 
+test_list = ["", "", "Akshat", "Nikhil"] 
+  
+# printing original list  
+print("The original list : " + str(test_list)) 
+  
+# using filter() 
+# First Non-Empty String in list 
+res = filter(None, test_list)[0] 
+  
+# printing result 
+print("The first non empty string is : " + str(res))
