@@ -1,0 +1,7 @@
+# Python program to demonstrate  
+# Creation of List  
+  
+# Creating a List 
+List = [] 
+print("Intial blank List: ") 
+print(List) 
