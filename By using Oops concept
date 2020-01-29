@@ -1,0 +1,9 @@
+class test:
+     def __init__(self,b="Infytq"):
+         self.a=b
+ 
+     def display(self):
+         print(self.a)
+         
+obj=test("Infosys")
+obj.display()
