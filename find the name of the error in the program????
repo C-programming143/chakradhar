@@ -1,0 +1,12 @@
+#Guess the output?
+class std:
+    def __init__(self,name,rollno):
+        self.name=name
+        self.rollno=rollno
+    def show():
+        print(self.name,self.rollno)
+        
+s1=std('sudhir',123)
+s2=std('siva',124)
+s1.show()
+s2.show()
