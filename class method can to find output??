@@ -1,0 +1,16 @@
+class moblie:
+    audio_jack="3.5mm"
+    def __init__(self,ram,pro,hd):
+        self.ram=ram
+        self.pro=pro
+        self.hd=hd
+    def display(self):
+        print(self.ram,self.pro,self.hd,self.audio_jack)
+
+sam=moblie("4GB","SD545","1TB")
+redmi=moblie("8GB","SD645","512GB")
+nokia=moblie("12GB","SD845","2TB")
+sam.audio_jack="4.5mm"
+sam.display()
+redmi.display()
+nokia.display()
