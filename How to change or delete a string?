@@ -1,0 +1,7 @@
+my_string = 'programiz'
+my_string[5] = 'a'
+...
+TypeError: 'str' object does not support item assignment
+>>> my_string = 'Python'
+>>> my_string
+'Python'
