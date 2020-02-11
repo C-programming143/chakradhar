@@ -1,0 +1,8 @@
+x = 5
+y = "John"
+print(x)
+print(y)
+
+
+#Here we will get the output of 5 & John
+#bcoz we have used then in print
