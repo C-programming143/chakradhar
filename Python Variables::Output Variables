@@ -1,0 +1,19 @@
+x = "awesome"
+print("Python is " + x)
+
+
+Example 1:
+x = "Python is "
+y = "awesome"
+z =  x + y
+print(z)
+
+Example 2:
+x = 5
+y = 10
+print(x + y)
+
+Example 3:
+x = 5
+y = "John"
+print(x + y)
