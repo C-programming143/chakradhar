@@ -1,0 +1,9 @@
+#Print all key names in the dictionary, one by one:
+
+for x in thisdict:
+  print(x)
+#Example
+#Print all values in the dictionary, one by one:
+
+for x in thisdict:
+  print(thisdict[x])
