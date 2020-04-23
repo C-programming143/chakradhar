@@ -1,0 +1,87 @@
+Skip to content
+Why GitHub? 
+Team
+Enterprise
+Explore 
+Marketplace
+Pricing 
+Search
+
+Sign in
+Sign up
+python
+/
+cpython
+1.2k30.6k14.3k
+ Code Pull requests 1,128 Actions Security 0 Insights
+Join GitHub today
+GitHub is home to over 40 million developers working together to host and review code, manage projects, and build software together.
+
+cpython/Grammar/Tokens
+@gvanrossum gvanrossum bpo-35975: Support parsing earlier minor versions of Python 3 (GH-12086)
+495da29 on Mar 8, 2019
+@gvanrossum@serhiy-storchaka@emilyemorehouse
+67 lines (64 sloc)  1.5 KB
+  
+ENDMARKER
+NAME
+NUMBER
+STRING
+NEWLINE
+INDENT
+DEDENT
+
+LPAR                    '('
+RPAR                    ')'
+LSQB                    '['
+RSQB                    ']'
+COLON                   ':'
+COMMA                   ','
+SEMI                    ';'
+PLUS                    '+'
+MINUS                   '-'
+STAR                    '*'
+SLASH                   '/'
+VBAR                    '|'
+AMPER                   '&'
+LESS                    '<'
+GREATER                 '>'
+EQUAL                   '='
+DOT                     '.'
+PERCENT                 '%'
+LBRACE                  '{'
+RBRACE                  '}'
+EQEQUAL                 '=='
+NOTEQUAL                '!='
+LESSEQUAL               '<='
+GREATEREQUAL            '>='
+TILDE                   '~'
+CIRCUMFLEX              '^'
+LEFTSHIFT               '<<'
+RIGHTSHIFT              '>>'
+DOUBLESTAR              '**'
+PLUSEQUAL               '+='
+MINEQUAL                '-='
+STAREQUAL               '*='
+SLASHEQUAL              '/='
+PERCENTEQUAL            '%='
+AMPEREQUAL              '&='
+VBAREQUAL               '|='
+CIRCUMFLEXEQUAL         '^='
+LEFTSHIFTEQUAL          '<<='
+RIGHTSHIFTEQUAL         '>>='
+DOUBLESTAREQUAL         '**='
+DOUBLESLASH             '//'
+DOUBLESLASHEQUAL        '//='
+AT                      '@'
+ATEQUAL                 '@='
+RARROW                  '->'
+ELLIPSIS                '...'
+COLONEQUAL              ':='
+
+OP
+AWAIT
+ASYNC
+TYPE_IGNORE
+TYPE_COMMENT
+ERRORTOKEN
