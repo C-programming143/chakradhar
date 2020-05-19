@@ -1,0 +1,15 @@
+def perfect(num):
+    n=0
+    while True:
+        if n*n==num:
+            return 1
+        elif n*n>num:
+            return 0
+        n=n+1
+        
+num=int(input())
+res=perfect(num)
+if res==1:
+    print("perfect")
+else:
+    print("Not perfect")
